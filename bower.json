@@ -1,0 +1,21 @@
+{
+  "name": "ng-jwt-auth",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "mingchan <nick.ccm1122@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7"
+  }
+}

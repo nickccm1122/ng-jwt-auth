@@ -1,5 +1,7 @@
 # JSON Web Token on NG in Action
 
+Using JWT for simple auth in action with Angular integration
+
 ###### Content
 - [Express Server](#express-server)
 - [Angular](#angular)
@@ -142,5 +144,9 @@ app.factory('AuthInterceptor', ['AuthTokenFactory', function(AuthTokenFactory) {
 
 }]);
 ```
-
-
+## Run Project
+### First Time
+`npm install && bower install`
+### Others
+`npm start` or `nodemon server` fire up the express server
+`cd public && http-server` simply use http-server to serve static files
